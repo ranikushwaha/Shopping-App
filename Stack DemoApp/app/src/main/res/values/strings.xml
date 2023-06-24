@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DemoApp</string>
+    <string name="heading_container_credit" >Rani, please set your credit</string>
+    <string name="heading_container_emi" >how do you want to pay?</string>
+    <string name="heading_container_bank" >where should we send the loan amount?</string>
+    <string name="helper_container_credit" >move the dial and set any amount you need upto ₹10,00000</string>
+    <string name="helper_container_emi" >choose one of our recommended plans</string>
+    <string name="helper_container_bank" >amount will be credited to this bank account, EMI will also be debited from this bank account</string>
+    <string name="credit_percent" >@2.0% monthly</string>
+</resources>
