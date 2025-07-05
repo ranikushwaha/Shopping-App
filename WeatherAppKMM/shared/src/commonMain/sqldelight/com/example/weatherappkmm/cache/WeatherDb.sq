@@ -1,0 +1,14 @@
+CREATE TABLE weather (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    timestamp INTEGER NOT NULL,
+    data TEXT NOT NULL
+);
+
+selectAll:
+SELECT * FROM weather ORDER BY timestamp DESC LIMIT 1;
+
+deleteAll:
+DELETE FROM weather;
+
+insert:
+INSERT INTO weather(timestamp, data) VALUES (?, ?);
